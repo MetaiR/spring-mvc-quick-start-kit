@@ -4,7 +4,7 @@ if you worked with `Spring MVC` framework, you probably awair of its basic confi
 
 this repository based on maven and already had the basic configuration, all you need is cloneing and using it.
 
-# How to use
+# How to use it
 
 it's so simple.
 
@@ -12,8 +12,16 @@ it's so simple.
 
 2. you can also compile it using maven with following command:
 
-```
-mvn clean install
-```
+   ```
+   mvn clean install
+   ```
 
-then copy the `.war` file (which will be created in `target` folder) and deploy it on your web server like `tomcat` 
+   then copy the `.war` file (which will be created in `target` folder) and deploy it on your web server like `tomcat` 
+
+# Verfiy
+
+for checking is it working or not, just after doing previous step, go to `{your-localhost-ip}:{port}/Spring-mvc` and if it's working you should see a page with this message:
+
+**Spring MVC Quick Start Kit (SMQSK)**
+
+**Welcome<br>if you see this page, it means I'm working**
