@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class WelComeController {
 
-	@RequestMapping(value = "welcome.htm",method = RequestMethod.GET)
+	@RequestMapping(value = "/",method = RequestMethod.GET)
 	protected ModelAndView handleRequestInternal(HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 
