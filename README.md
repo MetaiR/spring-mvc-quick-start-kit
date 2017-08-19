@@ -4,6 +4,8 @@ if you worked with `Spring MVC` framework, you probably awair of its basic confi
 
 this repository based on maven and already had the basic configuration, all you need is cloneing and using it.
 
+I downloaded this project from [Mkyong site](http://www.mkyong.com/spring-mvc/spring-mvc-hello-world-example/) and changed and added other things to it 
+
 # How to use it
 
 it's so simple.
